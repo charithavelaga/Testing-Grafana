@@ -1,0 +1,36 @@
+{
+  "id": null,
+  "uid": "app-health",
+  "title": "Application Health",
+  "tags": ["test", "application"],
+  "timezone": "browser",
+  "schemaVersion": 41,
+  "version": 1,
+  "refresh": "30s",
+  "panels": [
+    {
+      "id": 1,
+      "type": "stat",
+      "title": "Requests Per Minute",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 4
+      },
+      "targets": []
+    },
+    {
+      "id": 2,
+      "type": "timeseries",
+      "title": "Response Times",
+      "gridPos": {
+        "x": 8,
+        "y": 0,
+        "w": 16,
+        "h": 8
+      },
+      "targets": []
+    }
+  ]
+}

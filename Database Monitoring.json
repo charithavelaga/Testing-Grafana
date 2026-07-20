@@ -1,0 +1,36 @@
+{
+  "id": null,
+  "uid": "db-monitor",
+  "title": "Database Monitoring",
+  "tags": ["test", "database"],
+  "timezone": "browser",
+  "schemaVersion": 41,
+  "version": 1,
+  "refresh": "1m",
+  "panels": [
+    {
+      "id": 1,
+      "type": "table",
+      "title": "Active Connections",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "targets": []
+    },
+    {
+      "id": 2,
+      "type": "stat",
+      "title": "Query Count",
+      "gridPos": {
+        "x": 12,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "targets": []
+    }
+  ]
+}

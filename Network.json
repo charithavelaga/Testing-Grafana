@@ -1,0 +1,24 @@
+{
+  "id": null,
+  "uid": "network-dashboard",
+  "title": "Network Dashboard",
+  "tags": ["test", "network"],
+  "timezone": "browser",
+  "schemaVersion": 41,
+  "version": 1,
+  "refresh": "15s",
+  "panels": [
+    {
+      "id": 1,
+      "type": "timeseries",
+      "title": "Network Traffic",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 8
+      },
+      "targets": []
+    }
+  ]
+}

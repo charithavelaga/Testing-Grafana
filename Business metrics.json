@@ -1,0 +1,36 @@
+{
+  "id": null,
+  "uid": "business-metrics",
+  "title": "Business Metrics",
+  "tags": ["test", "business"],
+  "timezone": "browser",
+  "schemaVersion": 41,
+  "version": 1,
+  "refresh": "5m",
+  "panels": [
+    {
+      "id": 1,
+      "type": "stat",
+      "title": "Revenue",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "targets": []
+    },
+    {
+      "id": 2,
+      "type": "bargauge",
+      "title": "Orders",
+      "gridPos": {
+        "x": 6,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "targets": []
+    }
+  ]
+}
