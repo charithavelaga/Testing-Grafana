@@ -17,15 +17,7 @@
         "y": 0,
         "w": 12,
         "h": 8
-        "type": "table",
-      "title": "Active Connections",
-      "gridPos": {
-        "x": 0,
-        "y": 0,
-        "w": 12,
-        "h": 8
-        
-      },
+       },
       "targets": []
     },
     {
