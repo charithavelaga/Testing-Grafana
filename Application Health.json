@@ -243,7 +243,7 @@
           "description": "",
           "id": 3,
           "links": [],
-          "title": "New panel",
+          "title": "New panel 3",
           "vizConfig": {
             "group": "piechart",
             "kind": "VizConfig",
@@ -305,7 +305,7 @@
           "description": "",
           "id": 4,
           "links": [],
-          "title": "New panel",
+          "title": "New panel4",
           "vizConfig": {
             "group": "news",
             "kind": "VizConfig",
