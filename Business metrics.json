@@ -10,7 +10,7 @@
   "panels": [
     {
       "id": 1,
-      "type": "stat",
+      "type": "gauge",
       "title": "Revenue",
       "gridPos": {
         "x": 0,
@@ -23,7 +23,7 @@
     {
       "id": 2,
       "type": "bargauge",
-      "title": "Orders",
+      "title": "Orders3",
       "gridPos": {
         "x": 6,
         "y": 0,
