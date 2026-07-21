@@ -60,7 +60,7 @@
           "links": [],
           "title": "Revenue3.0",
           "vizConfig": {
-            "group": "stat",
+            "group": "Stat",
             "kind": "VizConfig",
             "spec": {
               "fieldConfig": {
