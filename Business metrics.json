@@ -60,7 +60,7 @@
           "links": [],
           "title": "Revenue3.0",
           "vizConfig": {
-            "group": "Stat",
+            "group": "gauge",
             "kind": "VizConfig",
             "spec": {
               "fieldConfig": {
@@ -86,7 +86,7 @@
               },
               "options": {
                 "barShape": "flat",
-                "barWidthFactor": 0.3,
+                "barWidthFactor": 0.5,
                 "effects": {
                   "barGlow": false,
                   "centerGlow": false,
@@ -105,9 +105,9 @@
                 },
                 "segmentCount": 1,
                 "segmentSpacing": 0.3,
-                "shape": "circle",
+                "shape": "gauge",
                 "showThresholdLabels": false,
-                "showThresholdMarkers": false,
+                "showThresholdMarkers": true,
                 "sizing": "auto",
                 "sparkline": true,
                 "textMode": "auto"
