@@ -1,0 +1,194 @@
+{
+  "annotations": {
+    "list": []
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "id": 1,
+      "type": "text",
+      "title": "Dashboard Header",
+      "gridPos": {
+        "h": 2,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='display:flex;align-items:center;justify-content:space-between;height:100%;padding:0 12px;color:#f9fafb'><div><div style='font-size:24px;font-weight:800'>Executive Command Center</div><div style='font-size:13px;color:#9ca3af'>No data source sample dashboard for Grafana GitSync testing</div></div><div style='font-size:12px;background:#064e3b;border:1px solid #10b981;border-radius:999px;padding:8px 14px'>GitSync Demo Ready</div></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "title": "Total Applications",
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 0,
+        "y": 2
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#2563eb,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>50</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Total Applications</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Across Production, QA and Dev</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "title": "Healthy",
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 6,
+        "y": 2
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#16a34a,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>42</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Healthy</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>No action required</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "title": "Warning",
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 12,
+        "y": 2
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#f59e0b,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>6</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Warning</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Need observation</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "title": "Critical",
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 18,
+        "y": 2
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#dc2626,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>2</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Critical</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Immediate action required</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "title": "Availability & SLA",
+      "gridPos": {
+        "h": 7,
+        "w": 8,
+        "x": 0,
+        "y": 6
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='padding:14px;color:#e5e7eb'>\n<div style='margin:8px 0'>\n  <div style='display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px'><b>Overall Availability</b><span>99%</span></div>\n  <div style='height:9px;background:#1f2937;border-radius:99px;overflow:hidden'><div style='width:99%;height:9px;background:#22c55e;border-radius:99px'></div></div>\n</div>\n<div style='margin:8px 0'>\n  <div style='display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px'><b>SLA Compliance</b><span>97%</span></div>\n  <div style='height:9px;background:#1f2937;border-radius:99px;overflow:hidden'><div style='width:97%;height:9px;background:#38bdf8;border-radius:99px'></div></div>\n</div>\n<div style='margin:8px 0'>\n  <div style='display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px'><b>Deployment Success</b><span>94%</span></div>\n  <div style='height:9px;background:#1f2937;border-radius:99px;overflow:hidden'><div style='width:94%;height:9px;background:#a78bfa;border-radius:99px'></div></div>\n</div>\n<div style='margin:8px 0'>\n  <div style='display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px'><b>Incident Resolution</b><span>88%</span></div>\n  <div style='height:9px;background:#1f2937;border-radius:99px;overflow:hidden'><div style='width:88%;height:9px;background:#f59e0b;border-radius:99px'></div></div>\n</div></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "title": "Application Status Table",
+      "gridPos": {
+        "h": 7,
+        "w": 10,
+        "x": 8,
+        "y": 6
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='overflow:auto;height:100%;'><table style='width:100%;border-collapse:collapse;font-size:13px;color:#e5e7eb'><thead><tr><th style='padding:8px;border-bottom:1px solid #374151;text-align:left;color:#d1d5db'>Application</th><th style='padding:8px;border-bottom:1px solid #374151;text-align:left;color:#d1d5db'>Environment</th><th style='padding:8px;border-bottom:1px solid #374151;text-align:left;color:#d1d5db'>Status</th><th style='padding:8px;border-bottom:1px solid #374151;text-align:left;color:#d1d5db'>Owner</th></tr></thead><tbody><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Payments API</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Prod</td><td style='padding:8px;border-bottom:1px solid #1f2937'><span style='color:#22c55e'>Healthy</span></td><td style='padding:8px;border-bottom:1px solid #1f2937'>Team Alpha</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Orders UI</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Prod</td><td style='padding:8px;border-bottom:1px solid #1f2937'><span style='color:#f59e0b'>Warning</span></td><td style='padding:8px;border-bottom:1px solid #1f2937'>Team Delta</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Inventory Service</td><td style='padding:8px;border-bottom:1px solid #1f2937'>QA</td><td style='padding:8px;border-bottom:1px solid #1f2937'><span style='color:#22c55e'>Healthy</span></td><td style='padding:8px;border-bottom:1px solid #1f2937'>Team Beta</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Notification Worker</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Prod</td><td style='padding:8px;border-bottom:1px solid #1f2937'><span style='color:#ef4444'>Critical</span></td><td style='padding:8px;border-bottom:1px solid #1f2937'>Team Gamma</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Customer Portal</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Prod</td><td style='padding:8px;border-bottom:1px solid #1f2937'><span style='color:#22c55e'>Healthy</span></td><td style='padding:8px;border-bottom:1px solid #1f2937'>Team Omni</td></tr></tbody></table></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "title": "Traffic Split",
+      "gridPos": {
+        "h": 7,
+        "w": 6,
+        "x": 18,
+        "y": 6
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;align-items:end;gap:12px;padding:15px;color:white'><div style='height:70%;width:25%;background:#3b82f6;border-radius:8px 8px 0 0'></div><div style='height:45%;width:25%;background:#22c55e;border-radius:8px 8px 0 0'></div><div style='height:55%;width:25%;background:#f59e0b;border-radius:8px 8px 0 0'></div><div style='height:30%;width:25%;background:#ef4444;border-radius:8px 8px 0 0'></div></div><div style='display:flex;justify-content:space-around;color:#9ca3af;font-size:12px;margin-top:-22px'><span>Web</span><span>API</span><span>Batch</span><span>DB</span></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "title": "Release Window",
+      "gridPos": {
+        "h": 6,
+        "w": 12,
+        "x": 0,
+        "y": 13
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='padding:16px;color:#e5e7eb'><b>Today Release Plan</b><ul><li>10:00 - Build validation completed</li><li>12:30 - QA signoff pending</li><li>15:00 - Production deployment window</li><li>17:00 - Post deployment monitoring</li></ul></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "title": "Operational Notes",
+      "gridPos": {
+        "h": 6,
+        "w": 12,
+        "x": 12,
+        "y": 13
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='padding:16px;color:#e5e7eb'><b>Summary</b><p>This dashboard is intentionally no data source. Use it to test whether Grafana GitSync can create and update dashboards from JSON files stored in GitHub.</p><p style='color:#93c5fd'>Try changing panel titles, colors, layout, or text and commit again.</p></div>"
+      },
+      "transparent": false
+    }
+  ],
+  "refresh": "",
+  "schemaVersion": 41,
+  "style": "dark",
+  "tags": [
+    "gitsync",
+    "no-data-source",
+    "demo"
+  ],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "GitSync Demo - Executive Command Center",
+  "uid": "gitsync-exec-command-center",
+  "version": 1,
+  "weekStart": ""
+}

@@ -1,0 +1,194 @@
+{
+  "annotations": {
+    "list": []
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "id": 1,
+      "type": "text",
+      "title": "Header",
+      "gridPos": {
+        "h": 2,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='font-size:24px;font-weight:800;color:#f9fafb;padding:8px 12px'>Application Health Wall <span style='font-size:13px;color:#9ca3af'>| 10-panel no data source board</span></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "title": "Payments",
+      "gridPos": {
+        "h": 4,
+        "w": 8,
+        "x": 0,
+        "y": 2
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#16a34a,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>Healthy</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Payments</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Last checked: few minutes ago</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "title": "Orders",
+      "gridPos": {
+        "h": 4,
+        "w": 8,
+        "x": 8,
+        "y": 2
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#f59e0b,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>Warning</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Orders</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Last checked: few minutes ago</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "title": "Inventory",
+      "gridPos": {
+        "h": 4,
+        "w": 8,
+        "x": 16,
+        "y": 2
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#16a34a,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>Healthy</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Inventory</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Last checked: few minutes ago</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "title": "Billing",
+      "gridPos": {
+        "h": 4,
+        "w": 8,
+        "x": 0,
+        "y": 6
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#dc2626,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>Critical</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Billing</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Last checked: few minutes ago</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "title": "Customer",
+      "gridPos": {
+        "h": 4,
+        "w": 8,
+        "x": 8,
+        "y": 6
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#16a34a,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>Healthy</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Customer</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Last checked: few minutes ago</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "title": "Search",
+      "gridPos": {
+        "h": 4,
+        "w": 8,
+        "x": 16,
+        "y": 6
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#f59e0b,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>Warning</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Search</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Last checked: few minutes ago</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "title": "Environment Distribution",
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 0,
+        "y": 10
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='padding:16px;color:#e5e7eb'>\n<div style='margin:8px 0'>\n  <div style='display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px'><b>Production</b><span>70%</span></div>\n  <div style='height:9px;background:#1f2937;border-radius:99px;overflow:hidden'><div style='width:70%;height:9px;background:#22c55e;border-radius:99px'></div></div>\n</div>\n<div style='margin:8px 0'>\n  <div style='display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px'><b>QA</b><span>55%</span></div>\n  <div style='height:9px;background:#1f2937;border-radius:99px;overflow:hidden'><div style='width:55%;height:9px;background:#38bdf8;border-radius:99px'></div></div>\n</div>\n<div style='margin:8px 0'>\n  <div style='display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px'><b>Development</b><span>40%</span></div>\n  <div style='height:9px;background:#1f2937;border-radius:99px;overflow:hidden'><div style='width:40%;height:9px;background:#a78bfa;border-radius:99px'></div></div>\n</div></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "title": "Health Matrix",
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 8,
+        "y": 10
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='display:grid;grid-template-columns:repeat(5,1fr);gap:8px;padding:14px'><div style='height:32px;border-radius:8px;background:#22c55e'></div><div style='height:32px;border-radius:8px;background:#22c55e'></div><div style='height:32px;border-radius:8px;background:#f59e0b'></div><div style='height:32px;border-radius:8px;background:#22c55e'></div><div style='height:32px;border-radius:8px;background:#ef4444'></div><div style='height:32px;border-radius:8px;background:#22c55e'></div><div style='height:32px;border-radius:8px;background:#f59e0b'></div><div style='height:32px;border-radius:8px;background:#22c55e'></div><div style='height:32px;border-radius:8px;background:#22c55e'></div><div style='height:32px;border-radius:8px;background:#22c55e'></div><div style='height:32px;border-radius:8px;background:#f59e0b'></div><div style='height:32px;border-radius:8px;background:#22c55e'></div><div style='height:32px;border-radius:8px;background:#22c55e'></div><div style='height:32px;border-radius:8px;background:#ef4444'></div><div style='height:32px;border-radius:8px;background:#22c55e'></div></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "title": "Application Details",
+      "gridPos": {
+        "h": 6,
+        "w": 8,
+        "x": 16,
+        "y": 10
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='overflow:auto;height:100%;'><table style='width:100%;border-collapse:collapse;font-size:13px;color:#e5e7eb'><thead><tr><th style='padding:8px;border-bottom:1px solid #374151;text-align:left;color:#d1d5db'>App</th><th style='padding:8px;border-bottom:1px solid #374151;text-align:left;color:#d1d5db'>Priority</th><th style='padding:8px;border-bottom:1px solid #374151;text-align:left;color:#d1d5db'>Status</th></tr></thead><tbody><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Payments</td><td style='padding:8px;border-bottom:1px solid #1f2937'>P1</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Healthy</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Orders</td><td style='padding:8px;border-bottom:1px solid #1f2937'>P2</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Warning</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Billing</td><td style='padding:8px;border-bottom:1px solid #1f2937'>P1</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Critical</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Search</td><td style='padding:8px;border-bottom:1px solid #1f2937'>P3</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Warning</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Customer</td><td style='padding:8px;border-bottom:1px solid #1f2937'>P2</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Healthy</td></tr></tbody></table></div>"
+      },
+      "transparent": false
+    }
+  ],
+  "refresh": "",
+  "schemaVersion": 41,
+  "style": "dark",
+  "tags": [
+    "gitsync",
+    "application",
+    "no-data-source"
+  ],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "GitSync Demo - Application Health Wall",
+  "uid": "gitsync-application-health-wall",
+  "version": 1,
+  "weekStart": ""
+}
