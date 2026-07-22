@@ -69,7 +69,7 @@
       },
       "options": {
         "mode": "html",
-        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#f59e0b,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>1</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Rollback Count</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Last rollback: API Gateway</div>\n</div>"
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#f59e0b,#111827);color:white;padding:16px;'>\n  <div style='font-size:25px;font-weight:800;line-height:1'>1</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Rollback Count</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Last rollback: API Gateway</div>\n</div>"
       },
       "transparent": false
     },
@@ -187,7 +187,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "GitSync Demo - Release & Deployment Analytics",
+  "title": "GitSync Demo - Release & Deployment Analytics2.0",
   "uid": "gitsync-release-deployment-analytics",
   "version": 1,
   "weekStart": ""
