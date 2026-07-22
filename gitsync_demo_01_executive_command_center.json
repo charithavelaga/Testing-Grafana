@@ -37,7 +37,7 @@
       },
       "options": {
         "mode": "html",
-        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#2563eb,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>50</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Total Applications</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Across Production, QA and Dev</div>\n</div>"
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#2563eb,#111827);color:white;padding:16px;'>\n  <div style='font-size:24px;font-weight:800;line-height:1'>50</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Total Applications</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Across Production, QA and Dev</div>\n</div>"
       },
       "transparent": false
     },
