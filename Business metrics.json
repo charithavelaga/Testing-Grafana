@@ -58,9 +58,9 @@
           "description": "",
           "id": 1,
           "links": [],
-          "title": "Revenue4.0",
+          "title": "Revenue",
           "vizConfig": {
-            "group": "gauge",
+            "group": "stat",
             "kind": "VizConfig",
             "spec": {
               "fieldConfig": {
