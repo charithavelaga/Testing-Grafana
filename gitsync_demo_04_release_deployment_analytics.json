@@ -1,0 +1,194 @@
+{
+  "annotations": {
+    "list": []
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "id": 1,
+      "type": "text",
+      "title": "Release Header",
+      "gridPos": {
+        "h": 2,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='padding:8px 12px;color:#f9fafb;font-size:24px;font-weight:800'>Release & Deployment Analytics</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "title": "Deployments",
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 0,
+        "y": 2
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#3b82f6,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>24</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Deployments</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>This week</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "title": "Success Rate",
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 6,
+        "y": 2
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#16a34a,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>96%</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Success Rate</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>23 successful</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "title": "Rollback Count",
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 12,
+        "y": 2
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#f59e0b,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>1</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Rollback Count</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Last rollback: API Gateway</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "title": "Pending Approvals",
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 18,
+        "y": 2
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border-radius:12px;background:linear-gradient(135deg,#a855f7,#111827);color:white;padding:16px;'>\n  <div style='font-size:34px;font-weight:800;line-height:1'>5</div>\n  <div style='font-size:15px;font-weight:700;margin-top:8px'>Pending Approvals</div>\n  <div style='font-size:12px;opacity:.85;margin-top:6px'>Awaiting CAB review</div>\n</div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "title": "Deployment Flow",
+      "gridPos": {
+        "h": 7,
+        "w": 8,
+        "x": 0,
+        "y": 6
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='padding:16px;color:#e5e7eb'><div style='font-weight:700'>Pipeline Stages</div>\n<div style='margin:8px 0'>\n  <div style='display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px'><b>Build</b><span>100%</span></div>\n  <div style='height:9px;background:#1f2937;border-radius:99px;overflow:hidden'><div style='width:100%;height:9px;background:#22c55e;border-radius:99px'></div></div>\n</div>\n<div style='margin:8px 0'>\n  <div style='display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px'><b>Unit Tests</b><span>96%</span></div>\n  <div style='height:9px;background:#1f2937;border-radius:99px;overflow:hidden'><div style='width:96%;height:9px;background:#22c55e;border-radius:99px'></div></div>\n</div>\n<div style='margin:8px 0'>\n  <div style='display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px'><b>Security Scan</b><span>90%</span></div>\n  <div style='height:9px;background:#1f2937;border-radius:99px;overflow:hidden'><div style='width:90%;height:9px;background:#38bdf8;border-radius:99px'></div></div>\n</div>\n<div style='margin:8px 0'>\n  <div style='display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px'><b>Deploy</b><span>75%</span></div>\n  <div style='height:9px;background:#1f2937;border-radius:99px;overflow:hidden'><div style='width:75%;height:9px;background:#f59e0b;border-radius:99px'></div></div>\n</div></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "title": "Release Calendar",
+      "gridPos": {
+        "h": 7,
+        "w": 8,
+        "x": 8,
+        "y": 6
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='overflow:auto;height:100%;'><table style='width:100%;border-collapse:collapse;font-size:13px;color:#e5e7eb'><thead><tr><th style='padding:8px;border-bottom:1px solid #374151;text-align:left;color:#d1d5db'>Date</th><th style='padding:8px;border-bottom:1px solid #374151;text-align:left;color:#d1d5db'>Release</th><th style='padding:8px;border-bottom:1px solid #374151;text-align:left;color:#d1d5db'>Status</th></tr></thead><tbody><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Mon</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Payments v2.4</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Done</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Tue</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Orders v3.1</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Done</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Wed</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Search v1.8</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Planned</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Thu</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Billing v5.0</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Approval</td></tr><tr><td style='padding:8px;border-bottom:1px solid #1f2937'>Fri</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Portal v2.0</td><td style='padding:8px;border-bottom:1px solid #1f2937'>Planned</td></tr></tbody></table></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 8,
+      "type": "text",
+      "title": "Quality Gates",
+      "gridPos": {
+        "h": 7,
+        "w": 8,
+        "x": 16,
+        "y": 6
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:16px;color:white'><div style='background:#064e3b;padding:14px;border-radius:10px'>Unit Tests<br><b>Pass</b></div><div style='background:#064e3b;padding:14px;border-radius:10px'>SAST<br><b>Pass</b></div><div style='background:#78350f;padding:14px;border-radius:10px'>Perf<br><b>Review</b></div><div style='background:#064e3b;padding:14px;border-radius:10px'>Approval<br><b>Done</b></div></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 9,
+      "type": "text",
+      "title": "Deployment Volume",
+      "gridPos": {
+        "h": 6,
+        "w": 12,
+        "x": 0,
+        "y": 13
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='height:100%;display:flex;align-items:end;gap:12px;padding:16px'><div style='height:35%;flex:1;background:#3b82f6;border-radius:8px 8px 0 0'></div><div style='height:65%;flex:1;background:#3b82f6;border-radius:8px 8px 0 0'></div><div style='height:45%;flex:1;background:#3b82f6;border-radius:8px 8px 0 0'></div><div style='height:80%;flex:1;background:#3b82f6;border-radius:8px 8px 0 0'></div><div style='height:55%;flex:1;background:#3b82f6;border-radius:8px 8px 0 0'></div><div style='height:72%;flex:1;background:#3b82f6;border-radius:8px 8px 0 0'></div><div style='height:40%;flex:1;background:#3b82f6;border-radius:8px 8px 0 0'></div></div>"
+      },
+      "transparent": false
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "title": "GitSync Testing Notes",
+      "gridPos": {
+        "h": 6,
+        "w": 12,
+        "x": 12,
+        "y": 13
+      },
+      "options": {
+        "mode": "html",
+        "content": "<div style='padding:16px;color:#e5e7eb'><b>Suggested GitSync Test</b><ol><li>Upload this JSON to GitHub.</li><li>Sync dashboards in Grafana.</li><li>Change one KPI value or panel title.</li><li>Commit again and verify update in Grafana.</li></ol></div>"
+      },
+      "transparent": false
+    }
+  ],
+  "refresh": "",
+  "schemaVersion": 41,
+  "style": "dark",
+  "tags": [
+    "gitsync",
+    "release",
+    "no-data-source"
+  ],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "GitSync Demo - Release & Deployment Analytics",
+  "uid": "gitsync-release-deployment-analytics",
+  "version": 1,
+  "weekStart": ""
+}
